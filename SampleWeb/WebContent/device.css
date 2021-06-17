@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 700px;
+    height: 650px;
+    box-shadow: 0px 0px 4px rgb(139, 136, 136);
+    padding-top: 10px;
+    margin-left: 20px;
+    background-color: rgb(255, 182, 45);
+    border-radius: 8px;
+    
+    
+}
+.place-name{
+    font-size: 30px;
+    margin-left: 220px;
+    
+}
+._4floors{
+  margin-left: 20px;  
+  margin-top: 22px;
+}
+.device1{
+    margin: 30px 0px 0px 100px;
+    
+}
+.lab1{
+    margin-left: 60px;
+}
+.lab0{
+    margin-left: 60px;
+}
+.flex{
+    display: flex;
+}
+.marg{
+    margin: 30px 0px 0px 100px;
+}
+.box-shad0{
+    box-shadow: 0px 0px 4px rgb(182, 175, 175);
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color:rgb(184, 167, 167);
+    margin: 7px 0px;
+    border-radius: 2px;
+    
+}
+.box-shad{
+    box-shadow: 0px 0px 4px rgb(182, 175, 175);
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    background-color:rgb(228, 220, 220);
+    border-radius: 4px;
+    
+}
+.floor{
+    margin: 0px 0px;
+}
+
+.toggle-btn{
+    width: 30px;
+    height: 15px;
+    background: gray;
+    border-radius: 8px;
+    padding: 4px;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn .inner-circle{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50px;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn.active{
+    background: springgreen;
+    
+
+}
+.toggle-btn.active .inner-circle{
+    margin-left: 15px;
+
+}
+.container1{
+    
+    padding: 7px;
+    
+}
+.container2{
+    
+    padding: 7px;
+    margin-left: 0px;
+}
+
+.container3{
+    box-shadow: 0px 0px 4px rgb(182, 175, 175);
+    width: 530px;
+    background-color:rgb(228, 220, 220);
+    margin: 120px 0px 0px 30px;
+    height: 380px;
+    border-radius: 20px;
+}
+.flex2{
+    display: flex;
+    margin-left: 70px;
+}
+.right{
+    margin-left: 80px;
+}
+.box-shade2{
+    background-color: rgb(255, 182, 45);
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+    width: 90px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px rgb(182, 175, 175);
+}
+.box-shade3{
+    background-color: white;
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+    width: 90px;
+    padding: 10px;
+    box-shadow: 0px 0px 4px rgb(182, 175, 175);
+}
